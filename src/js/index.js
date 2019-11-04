@@ -1,18 +1,9 @@
 //load style & jquery
-import '@/style/sass/styles.sass';
+import '@/style/sass/styles.sass'; 
+window.$ = require("jquery"); 
 
-window.$ = require("jquery");
-
-// require('popper')
-require('bootstrap') 
-import 'bootstrap/js/dist/carousel';
-
-
-// Import Vue
-import Vue from 'vue';
-
-
-//import application files
+// VUE
+import Vue from 'vue';  
 import App from "@/vue/app";
 
 (function () {
