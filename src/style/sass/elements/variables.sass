@@ -1,0 +1,29 @@
+$color-primary:  #009FB4
+$color-primary-hover:  #018c9e
+$color-secondary: #777
+$color-grey: #7E7E7E
+$color-lightgrey: #AFAFAF
+$color-darkblue: #009FB4
+$color-smoke: #F6F8FA
+
+
+//VUE TRANSITIONS...
+.fade-enter-active
+    transition-delay: 0.9s
+    transition: all .5s
+.fade-leave-active
+    transition: all .5s
+
+.fade-enter
+    transform:  translateX(50%)
+    opacity: 0
+.fade-enter-to
+    transform: translateX(0)
+    opacity: 1
+
+.fade-leave
+    transform: translateX(-50%)
+    opacity: 1
+.fade-leave-to
+    transform: translateX(-50%)
+    opacity: 0
